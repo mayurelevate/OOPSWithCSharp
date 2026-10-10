@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LinkedListDSA
+{
+    internal class Program
+    {
+        /*
+         * Linked List is a linear data structure, in which elements are not stored at a contiguous location, 
+         * rather they are linked using pointers. Linked List forms a series of connected nodes, 
+         * where each node stores the data and the address of the next node.
+         * 
+         * Node Structure: A node in a linked list typically consists of two components:
+         * Data: It holds the actual value or data associated with the node.
+         * Next Pointer: It stores the memory address (reference) of the next node in the sequence.
+         * Head and Tail: The linked list is accessed through the head node, which points to the 
+                          first node in the list. The last node in the list points to NULL or nullptr, 
+                          indicating the end of the list. This node is known as the tail node.
+
+         */
+        static void Main(string[] args)
+        {
+
+            // create the linked list
+
+            string[] words = { "the", "fox", "jumps", "the", "dog" };
+
+            LinkedList<string> sentence = new LinkedList<string>(words);
+
+            Display(sentence, "The Linked List Values");
+
+            Console.WriteLine("sentence.Contains(\"jumps\") = {0}", sentence.Contains("jumps"));
+
+
+
+        }
+
+
+
+
+        private static void Display(LinkedList<string> words,string test)
+        {
+            Console.WriteLine(test);
+
+            foreach(string word in words)
+            {
+                Console.Write(word + " ");
+            }
+
+            Console.WriteLine();
+            Console.WriteLine();
+        }
+    }
+}
