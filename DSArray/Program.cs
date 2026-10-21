@@ -1,4 +1,5 @@
-﻿using DSArray.ArrayRotation;
+﻿using DSArray._1DArrayProblems;
+using DSArray.ArrayRotation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,9 @@ namespace DSArray
             //IntitializationDeclerationArray obj = new IntitializationDeclerationArray();
             //obj.IntArray();
             //obj.StudentArray();
+
+            //DynamicSizeArray dsa = new DynamicSizeArray();
+            //dsa.DynamicArray();
 
             //JaggedArray jaggedArray = new JaggedArray();
             //jaggedArray.Intjaggedarray();
@@ -67,8 +71,11 @@ namespace DSArray
             //jugglingRotation.JugglingRotationLeft();
             //jugglingRotation.JugglingRotationRight();
 
-            ArrayReversalAlgorithm arrayReversalAlgorithm = new ArrayReversalAlgorithm();
-            arrayReversalAlgorithm.reverseArray();
+            //ArrayReversalAlgorithm arrayReversalAlgorithm = new ArrayReversalAlgorithm();
+            //arrayReversalAlgorithm.reverseArray();
+
+            Find_greater_neighbors obj_neighbors = new Find_greater_neighbors();
+            obj_neighbors.find_neighbour();
 
             Console.ReadLine();
         }
