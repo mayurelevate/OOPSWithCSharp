@@ -8,6 +8,7 @@ namespace ReverseString_v2
 {
     internal class Program
     {
+        // Reverse alternate word from string..
         static void Main(string[] args)
         {
 

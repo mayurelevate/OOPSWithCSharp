@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1DArrayProblems\Find_greater_neighbors.cs" />
     <Compile Include="arrayReverseByLoop.cs" />
     <Compile Include="arrayReverseByRecursion.cs" />
     <Compile Include="arrayReverseStack.cs" />
@@ -50,6 +51,7 @@
     <Compile Include="ArrayRotation\JugglingRotation.cs" />
     <Compile Include="ArrayRotation\LeftRotation.cs" />
     <Compile Include="ArrayWithGivenSum.cs" />
+    <Compile Include="DynamicSizeArray.cs" />
     <Compile Include="IntitializationDeclerationArray.cs" />
     <Compile Include="JaggedArray.cs" />
     <Compile Include="MultidimentionalArray.cs" />

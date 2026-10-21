@@ -8,6 +8,7 @@ namespace ReverseString_v1
 {
     internal class Program
     {
+        // Rever entire String..
         static void Main(string[] args)
         {
 
