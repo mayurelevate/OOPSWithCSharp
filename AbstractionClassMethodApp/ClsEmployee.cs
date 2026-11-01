@@ -20,7 +20,7 @@ namespace AbstractionClassMethodApp
         }
         public ClsEmployee()
         {
-            Console.WriteLine("ABSTRACT CLASS CONSTRUCTOR");
+            Console.WriteLine("ABSTRACT CLASS CONSTRUCTOR11");
         }
     }
     class ClsManager : ClsEmployee

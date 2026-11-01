@@ -54,6 +54,7 @@
     <Compile Include="DynamicSizeArray.cs" />
     <Compile Include="IntitializationDeclerationArray.cs" />
     <Compile Include="JaggedArray.cs" />
+    <Compile Include="ModifyElements.cs" />
     <Compile Include="MultidimentionalArray.cs" />
     <Compile Include="PrintAlternatePattern.cs" />
     <Compile Include="PrintArrayNumber.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="reverseArray.cs" />
     <Compile Include="reverseArrayTwoPointers.cs" />
     <Compile Include="ReverseByInbuidFunction.cs" />
+    <Compile Include="SearchElement.cs" />
     <Compile Include="SingleDimensionJaggedArray.cs" />
   </ItemGroup>
   <ItemGroup>

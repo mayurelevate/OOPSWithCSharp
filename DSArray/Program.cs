@@ -74,8 +74,12 @@ namespace DSArray
             //ArrayReversalAlgorithm arrayReversalAlgorithm = new ArrayReversalAlgorithm();
             //arrayReversalAlgorithm.reverseArray();
 
-            Find_greater_neighbors obj_neighbors = new Find_greater_neighbors();
-            obj_neighbors.find_neighbour();
+            //Find_greater_neighbors obj_neighbors = new Find_greater_neighbors();
+            //obj_neighbors.find_neighbour();
+
+            //SearchElement.findElement();
+
+            ModifyElements.ElementModify();
 
             Console.ReadLine();
         }
