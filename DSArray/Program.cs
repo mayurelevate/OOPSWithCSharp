@@ -79,7 +79,26 @@ namespace DSArray
 
             //SearchElement.findElement();
 
-            ModifyElements.ElementModify();
+            //ModifyElements.ElementModify();
+
+            //InsertElementInArray.AddAtBegining();
+
+            //InsertElementInArray.AddAtBeginingManually();
+            //InsertElementInArray.AddAtBeginingManuallyV1();
+            //AddElementAtEnd.AddElementEnd();
+
+            //AddElementAtEnd.DeleteElementBeginning();
+
+            //AddElementAtEnd.DeleteElementBeginningManually();
+
+            //AddElementAtEnd.DeleteElementFromGivenPosition();
+
+            //AddElementAtEnd.DeleteElementFromGivenPositionManually();
+
+            //AddElementAtEnd.DeleteFirstOccurrenceElementArray();
+
+            AddElementAtEnd.DeleteFirstOccurrenceElementArrayManually();
+
 
             Console.ReadLine();
         }

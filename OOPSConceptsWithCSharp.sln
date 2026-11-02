@@ -201,6 +201,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two_Integer_Sum_II", "Two_I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove_Duplicates_from_Sorted_Array", "Remove_Duplicates_from_Sorted_Array\Remove_Duplicates_from_Sorted_Array.csproj", "{CEA4DF89-3545-4891-8CE2-662069C56A6C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{76A081F0-FE92-4BC6-B907-4ED021CF8A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_Remove_Duplicate_FromArray", "26_Remove_Duplicate_FromArray\26_Remove_Duplicate_FromArray.csproj", "{8E165854-3E4C-4452-BAE5-EA560A83A641}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -563,6 +567,10 @@ Global
 		{CEA4DF89-3545-4891-8CE2-662069C56A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEA4DF89-3545-4891-8CE2-662069C56A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEA4DF89-3545-4891-8CE2-662069C56A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E165854-3E4C-4452-BAE5-EA560A83A641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E165854-3E4C-4452-BAE5-EA560A83A641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E165854-3E4C-4452-BAE5-EA560A83A641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E165854-3E4C-4452-BAE5-EA560A83A641}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -642,6 +650,7 @@ Global
 		{35CE83A5-8C24-4DF4-8BF8-83EE80BC83E4} = {26BD15F9-9B62-469F-8CEC-5F6BAC4BD0AB}
 		{55CB84E2-977D-4B8A-87E8-204FE2A24B8E} = {26BD15F9-9B62-469F-8CEC-5F6BAC4BD0AB}
 		{CEA4DF89-3545-4891-8CE2-662069C56A6C} = {26BD15F9-9B62-469F-8CEC-5F6BAC4BD0AB}
+		{8E165854-3E4C-4452-BAE5-EA560A83A641} = {76A081F0-FE92-4BC6-B907-4ED021CF8A74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6FFDC8B-122E-4016-B5EF-4A843F6F6107}
