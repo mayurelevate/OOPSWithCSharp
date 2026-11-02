@@ -74,8 +74,31 @@ namespace DSArray
             //ArrayReversalAlgorithm arrayReversalAlgorithm = new ArrayReversalAlgorithm();
             //arrayReversalAlgorithm.reverseArray();
 
-            Find_greater_neighbors obj_neighbors = new Find_greater_neighbors();
-            obj_neighbors.find_neighbour();
+            //Find_greater_neighbors obj_neighbors = new Find_greater_neighbors();
+            //obj_neighbors.find_neighbour();
+
+            //SearchElement.findElement();
+
+            //ModifyElements.ElementModify();
+
+            //InsertElementInArray.AddAtBegining();
+
+            //InsertElementInArray.AddAtBeginingManually();
+            //InsertElementInArray.AddAtBeginingManuallyV1();
+            //AddElementAtEnd.AddElementEnd();
+
+            //AddElementAtEnd.DeleteElementBeginning();
+
+            //AddElementAtEnd.DeleteElementBeginningManually();
+
+            //AddElementAtEnd.DeleteElementFromGivenPosition();
+
+            //AddElementAtEnd.DeleteElementFromGivenPositionManually();
+
+            //AddElementAtEnd.DeleteFirstOccurrenceElementArray();
+
+            AddElementAtEnd.DeleteFirstOccurrenceElementArrayManually();
+
 
             Console.ReadLine();
         }
